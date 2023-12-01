@@ -12,6 +12,7 @@
 <script setup>
 import {Link} from '@inertiajs/inertia-vue3'
 import MainLayout from '../../Layouts/MainLayout.vue'
+import Box from '@/Components/UI/Box.vue'
 defineProps(['message']);
 </script>
 

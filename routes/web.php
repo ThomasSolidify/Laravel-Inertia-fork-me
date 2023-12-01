@@ -20,4 +20,4 @@ Route::get('/', 'App\Http\Controllers\IndexController@index');
 Route::get('/show', 'App\Http\Controllers\IndexController@show');
 
 
-Route::resource('listing',ListingController::class)->only(['index','show','create']);
+Route::resource('listing',ListingController::class);
